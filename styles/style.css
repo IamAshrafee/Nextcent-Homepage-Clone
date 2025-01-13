@@ -1,25 +1,111 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+body {
+    font-family: 'inter', sans-serif;
+}
+
+a {
     text-decoration: none;
     color: #000;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.wrapper{
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.wrapper {
     display: flex;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.ali-center {
+    display: flex;
+    align-self: center;
+}
+
+/* Common elements  */
+
+.btn-sec {
+    padding: 10px 20px;
+    border: 6px;
+}
+
+.btn-pri {
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 6px;
+}
+
+.btn-secondary {
+    color: #4CAF4F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* Common Elements End here  */
+
+/* Nav starts here  */
+#navBar {
+    padding: 30px 0px;
+}
+
+.nav-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img {}
+
+.nav-menu {}
+
+.nav-menu ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-menu ul li {}
+
+.nav-menu ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.nav-buttons .btn-pri {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Nav ends here  */
