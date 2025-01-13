@@ -50,6 +50,10 @@ button {
     background-color: #4CAF4F;
     padding: 14px 32px;
     border-radius: 6px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    margin-top: 32px;
 }
 
 .btn-secondary {
@@ -68,11 +72,24 @@ button {
     text-align: center;
 }
 
+.des-regular {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #717171;
+    margin: 16px 0px 0px 0px;
+}
+
 /* Common Elements End here  */
 
 /* Nav starts here  */
 #navBar {
     padding: 30px 0px;
+    background-color: #F5F7FA;
 }
 
 .nav-items-wrapper {
@@ -81,17 +98,11 @@ button {
     align-items: center;
 }
 
-.nav-logo img {}
-
-.nav-menu {}
-
 .nav-menu ul {
     display: flex;
     gap: 50px;
     align-items: center;
 }
-
-.nav-menu ul li {}
 
 .nav-menu ul li a {
     font-size: 16px;
@@ -106,6 +117,37 @@ button {
 .nav-buttons .btn-pri {
     padding: 10px 20px;
     border-radius: 4px;
+    margin-top: 0px;
 }
 
 /* Nav ends here  */
+
+/* Hero starts here  */
+
+#hero-section {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+}
+
+.hero-texts h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: left;
+}
+
+.hero-texts span {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4CAF4F;
+}
+
+/* Hero ends here  */
