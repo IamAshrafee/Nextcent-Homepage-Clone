@@ -72,18 +72,6 @@ button {
     text-align: center;
 }
 
-.des-regular {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #717171;
-    margin: 16px 0px 0px 0px;
-}
-
 /* Common Elements End here  */
 
 /* Nav starts here  */
@@ -151,3 +139,23 @@ button {
 }
 
 /* Hero ends here  */
+
+/* Our Clients section starts here */
+
+#ourClients-section {
+    padding: 40px 0px;
+}
+.ourClients-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourClients-items{
+    display: flex;
+    gap: 136px;
+    margin: 25px 0px;
+}
+
+/* Our Clients section ends here */
+
